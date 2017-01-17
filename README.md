@@ -1,3 +1,3 @@
 # MusicCleaner
-## Free Music Cleaning Software
-Simple Music Cleaner using BASS
+## Simple Music Cleaner written in Delphi using BASS Library
+
