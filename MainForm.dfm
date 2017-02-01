@@ -1784,6 +1784,7 @@ object MusicCleaner: TMusicCleaner
     ParentShowHint = False
     ShowHint = True
     TabOrder = 0
+    OnClick = BtnSelectFolderClick
   end
   object BtnSettings: TButton
     Left = 575
@@ -1825,6 +1826,7 @@ object MusicCleaner: TMusicCleaner
     ParentShowHint = False
     ShowHint = True
     TabOrder = 3
+    OnClick = BtnPlayClick
   end
   object BtnPause: TButton
     Left = 125
@@ -1842,6 +1844,7 @@ object MusicCleaner: TMusicCleaner
     ParentShowHint = False
     ShowHint = True
     TabOrder = 4
+    OnClick = BtnPauseClick
   end
   object btnStop: TButton
     Left = 181
@@ -1870,6 +1873,7 @@ object MusicCleaner: TMusicCleaner
     ParentShowHint = False
     ShowHint = True
     TabOrder = 6
+    OnClick = BtnDeleteClick
   end
   object BtnCopy: TButton
     Left = 520
@@ -1924,6 +1928,8 @@ object MusicCleaner: TMusicCleaner
     ShowGlyphs = True
     ShowHint = True
     TabOrder = 10
+    OnDblClick = FileListBox1DblClick
+    OnKeyDown = FileListBox1KeyDown
   end
   object BtnHelp: TButton
     Left = 636
@@ -1946,6 +1952,7 @@ object MusicCleaner: TMusicCleaner
     ParentShowHint = False
     ShowHint = True
     TabOrder = 12
+    OnMouseDown = ProgressBar1MouseDown
   end
   object Button1: TButton
     Left = 11
@@ -1983,6 +1990,7 @@ object MusicCleaner: TMusicCleaner
   end
   object Timer1: TTimer
     Interval = 1
+    OnTimer = Timer1Timer
     Left = 24
     Top = 183
   end
