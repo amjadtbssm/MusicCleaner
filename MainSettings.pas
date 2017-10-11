@@ -37,7 +37,7 @@ uses MainForm;
 
 procedure TFrmSettings.Button1Click(Sender: TObject);
 begin
-
+        // Set the MainForm Variables Accordingly
         MainForm.CopyDir := EdtCopyDir.Text;
         MainForm.MoveDir := EdtMoveDir.Text;
 
@@ -84,9 +84,9 @@ end;
 
 procedure TFrmSettings.FormCreate(Sender: TObject);
 begin
-        // Initilize the Folders
-         EdtCopyDir.Text := MainForm.CopyDir;
-         EdtMoveDir.Text := MainForm.MoveDir;
+             // Initilize the Folders
+             EdtCopyDir.Text := MainForm.CopyDir;
+             EdtMoveDir.Text := MainForm.MoveDir;
 end;
 
 end.
