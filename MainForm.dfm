@@ -12,11 +12,13 @@ object MusicCleaner: TMusicCleaner
   Font.Height = -11
   Font.Name = 'Tahoma'
   Font.Style = []
+  KeyPreview = True
   OldCreateOrder = False
   Position = poDesigned
   OnClose = FormClose
   OnCreate = FormCreate
   OnDestroy = FormDestroy
+  OnKeyDown = FormKeyDown
   PixelsPerInch = 96
   TextHeight = 13
   object Image1: TImage
@@ -1862,6 +1864,7 @@ object MusicCleaner: TMusicCleaner
     ParentShowHint = False
     ShowHint = True
     TabOrder = 5
+    OnClick = btnStopClick
   end
   object BtnDelete: TButton
     Left = 439
@@ -1885,6 +1888,7 @@ object MusicCleaner: TMusicCleaner
     ParentShowHint = False
     ShowHint = True
     TabOrder = 7
+    OnClick = BtnCopyClick
   end
   object BtnMove: TButton
     Left = 601
@@ -1896,6 +1900,7 @@ object MusicCleaner: TMusicCleaner
     ParentShowHint = False
     ShowHint = True
     TabOrder = 8
+    OnClick = BtnMoveClick
   end
   object BtnExit: TButton
     Left = 682
@@ -1954,7 +1959,7 @@ object MusicCleaner: TMusicCleaner
     TabOrder = 12
     OnMouseDown = ProgressBar1MouseDown
   end
-  object Button1: TButton
+  object BtnPre: TButton
     Left = 11
     Top = 501
     Width = 50
@@ -1970,8 +1975,9 @@ object MusicCleaner: TMusicCleaner
     ParentShowHint = False
     ShowHint = True
     TabOrder = 13
+    OnClick = BtnPreClick
   end
-  object Button2: TButton
+  object BtnNext: TButton
     Left = 238
     Top = 501
     Width = 50
@@ -1987,6 +1993,7 @@ object MusicCleaner: TMusicCleaner
     ParentShowHint = False
     ShowHint = True
     TabOrder = 14
+    OnClick = BtnNextClick
   end
   object Timer1: TTimer
     Interval = 1
