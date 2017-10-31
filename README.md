@@ -6,7 +6,7 @@
 
 ### :sound: Music Cleaner is a clean and straight application built for the purpose of cleaning audio collection.
 # Features
-###### :notes: Open a folder and list all its Audio files
+###### :notes: Open a folder and list all of its Audio files
 ###### :notes: Play and seek the audio file
 ###### :notes: Delete, Move or Copy the file to a specified folder already set in preferences
 ###### :notes: Basic Player navigation controls like Next, Previous, Play, Pause and Stop
