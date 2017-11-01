@@ -1,6 +1,6 @@
 # MusicCleaner
-![Music Cleaner LOGO](https://raw.githubusercontent.com/amjadtbssm/MusicCleaner/master/Graphics/MC Logo.png)
-![Music Cleaner](https://raw.githubusercontent.com/amjadtbssm/MusicCleaner/master/Graphics/MusicCleaner.png)
+<p><img src="https://raw.githubusercontent.com/amjadtbssm/MusicCleaner/master/Graphics/MC%20Logo.png" alt="Logo"></p>
+<p><img src="https://raw.githubusercontent.com/amjadtbssm/MusicCleaner/master/Graphics/MusicCleaner.png" alt="Music Cleaner"></p>
 ## Simple Music Cleaner written in Delphi using BASS Library
 
 
@@ -13,4 +13,4 @@
 
 This project uses BASS Audio Library from www.un4seen.com
 
-![Music Cleaner Box Shot] (https://raw.githubusercontent.com/amjadtbssm/MusicCleaner/master/Graphics/Box-Small.png)
+<p><img src="https://raw.githubusercontent.com/amjadtbssm/MusicCleaner/master/Graphics/Box-Small.png" alt="Music Cleaner Box Shot"></p>
