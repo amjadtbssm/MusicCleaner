@@ -1,0 +1,47 @@
+@charset "utf-8";
+/* Music Cleaner Help CSS */
+
+body, html { padding:0; margin:0; }
+a { outline:none; font-size:inherit;  }
+a img { border:none;}
+
+* { font-family:Arial, Tahoma; font-size:14px; color:#666; }
+
+
+.container { width:982px; margin:0 auto; padding-top:15px;  }
+
+.content {padding:20px 0 }
+
+ul { margin:0; padding:0;  padding-left:40px; padding-top:20px; list-style:none; }
+
+h1, h2,h3, h4, h5 ,h6 { margin:0; padding:0; font-weight: normal;  color:#000;  }
+h1 { font-size:50px;}
+h2 { font-size:44px;}
+h3 { font-size:28px;}
+h4 { font-size:23px;}
+
+.red { color:#c00; }
+.green {color:#690; }
+
+ul.features li p { margin:0; padding:0; }
+ul.features li { margin-bottom:10px;}
+ul.features li h4 {  font-size:20px;}
+
+a.MusicCleaner_btn { display:inline-block; height:52px; background:url(MusicCleaner_btn.jpg) 0 0px no-repeat; padding-left:57px;text-decoration:none }
+a.MusicCleaner_btn span { display:inline-block; height:52px;  background:url(MusicCleaner_btn.jpg) right -52px no-repeat; padding:0 10px 0 0; color:#fff; font-size:24px; line-height:52px;    }
+a.MusicCleaner_btn:hover { background:url(../images/MusicCleaner_btn.jpg) 0 -104px no-repeat; }
+a.MusicCleaner_btn:hover span  {  background:url(../images/MusicCleaner_btn.jpg) right -156px no-repeat;  }
+
+.music_line { height:17px; background:url(../images/music_line.png) 0 0 repeat-x; margin:30px 0;  }
+table.banner_content td { vertical-align:top; }
+span { font-size:inherit; }
+
+P.footer {
+	color: #FFF;	
+	text-align: center;
+	width: 982px;
+	height: 50px;
+	font-size: 100%;
+	background: url("./footer.jpg") no-repeat;
+	padding: 10px 0 0 0;
+}
