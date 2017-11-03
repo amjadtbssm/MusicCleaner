@@ -525,6 +525,20 @@ begin
     Finally
        Ini.Free;
     End;
+    // Initially create the MoveTo and CopyTo Directories if they do not exist
+    if MoveDir <> '' then Begin
+        if not DirectoryExists (MoveDir) then Begin
+           //Create the Move To Directory
+           CreateDir(MoveDir);
+        End;
+     End;
+
+     if CopyDir <> '' then Begin
+        if not DirectoryExists (CopyDir) then Begin
+             //Create the Copy To Directory
+             CreateDir(CopyDir);
+        End;
+     End;
 end;
 
 procedure TMusicCleaner.PlayItem(Item: Integer);
