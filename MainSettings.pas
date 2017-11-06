@@ -44,22 +44,21 @@ begin
 
       // Check the contents of EditBoxes
       Try
-       if DirectoryExists (EdtCopyDir.Text) then
+       if System.SysUtils.DirectoryExists (EdtCopyDir.Text) then
           begin
             // ShowMessage('Copy To Folder Exists');
             Exit;
           end else
             ShowMessage('Copy To Folder does not exist' + #13#10 + 'It will be created');
-            CreateDir(EdtCopyDir.Text);
+            System.SysUtils.ForceDirectories(EdtCopyDir.Text);
 
-        if DirectoryExists (EdtMoveDir.Text) then
+        if System.SysUtils.DirectoryExists (EdtMoveDir.Text) then
            begin
               // ShowMessage ('Move To Folder Exists');
             Exit;
          end else
             ShowMessage('Move To Folder does not exist' + #13#10 + 'It will be created');
-            CreateDir(EdtMoveDir.Text);
-
+            System.SysUtils.ForceDirectories(EdtMoveDir.Text);
             Finally
 
              Close;

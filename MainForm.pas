@@ -193,10 +193,12 @@ procedure TMusicCleaner.BtnMoveClick(Sender: TObject);
     FileOrFolder, MoveTargetFile : string;
 begin
       CurItem := False;
-      if FileListBox1.ItemIndex < 0 then begin Exit
+      if FileListBox1.ItemIndex < 0 then begin
+      Exit
       end Else
 
         Begin
+            CheckMovePath(Sender);
             // Delete File
             FileOrFolder := IncludeTrailingPathDelimiter(FileListBox1.Directory)+FileListBox1.Items.Strings[FileListBox1.ItemIndex];
             MoveTargetFile := MoveDir +PathDelim+ FileListBox1.Items.Strings[FileListBox1.ItemIndex];;
@@ -237,7 +239,6 @@ end;
 procedure TMusicCleaner.BtnNextClick(Sender: TObject);
  var
   CurrentOne, NextOne: Integer;
-  EndOfList: Boolean;
 begin
    // Play Next Item
   if FileListBox1.ItemIndex < 0 then
@@ -285,7 +286,6 @@ end;
 procedure TMusicCleaner.BtnPreClick(Sender: TObject);
  var
   CurrentOne, NextOne: Integer;
-  EndOfList: Boolean;
 begin
   // Play Previous Item
   if FileListBox1.ItemIndex < 0 then
@@ -316,7 +316,7 @@ end;
 
 procedure TMusicCleaner.BtnSelectFolderClick(Sender: TObject);
 Var
-  Path, S    : String;
+  Path    : String;
 begin
   if SelectFolderDialog.Execute then
   begin
@@ -344,12 +344,12 @@ procedure TMusicCleaner.CheckCopyPath(Sender: TObject);
 begin
       // Check if the Copy to Directories exist if not create them
 
-      if DirectoryExists (CopyDir) then
+      if System.SysUtils.DirectoryExists (CopyDir) then
           begin
             Exit;
           end else
             ShowMessage('Copy To Folder does not exist' + #13#10 + 'It will be created');
-            CreateDir(CopyDir);
+            System.SysUtils.ForceDirectories(CopyDir);
 end;
 
 procedure TMusicCleaner.CheckCurItem;
@@ -377,13 +377,13 @@ procedure TMusicCleaner.CheckMovePath(Sender: TObject);
 begin
           // Check if the Move to Directories exist if not create them
 
-      if DirectoryExists (MoveDir) then
+      if System.SysUtils.DirectoryExists (MoveDir) then
           begin
             // ShowMessage('Copy To Folder Exists');
             Exit;
           end else
             ShowMessage('Move To Folder does not exist' + #13#10 + 'It will be created');
-            CreateDir(MoveDir);
+            System.SysUtils.ForceDirectories(MoveDir);
 end;
 
 procedure TMusicCleaner.FileListBox1DblClick(Sender: TObject);
@@ -527,16 +527,16 @@ begin
     End;
     // Initially create the MoveTo and CopyTo Directories if they do not exist
     if MoveDir <> '' then Begin
-        if not DirectoryExists (MoveDir) then Begin
+        if not System.SysUtils.DirectoryExists (MoveDir) then Begin
            //Create the Move To Directory
-           CreateDir(MoveDir);
+           System.SysUtils.ForceDirectories(MoveDir);
         End;
      End;
 
      if CopyDir <> '' then Begin
-        if not DirectoryExists (CopyDir) then Begin
+        if not System.SysUtils.DirectoryExists (CopyDir) then Begin
              //Create the Copy To Directory
-             CreateDir(CopyDir);
+             System.SysUtils.ForceDirectories(CopyDir);
         End;
      End;
 end;
@@ -580,7 +580,7 @@ end;
 
 procedure TMusicCleaner.RemoveSelected;
 var
-  PrevIndex, I: Integer;
+  PrevIndex: Integer;
 begin
             // Remove The selected Entry
 
