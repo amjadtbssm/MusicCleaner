@@ -65,3 +65,4 @@ __recovery/
 # Ignoring Release files
 Win32/MusicCleaner/*.exe
 Setup Factory/*.exe
+Setup Factory/Autosave/*.*
