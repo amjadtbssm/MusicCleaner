@@ -9,7 +9,7 @@ Visit Music Cleaner on GitHub pages at https://amjadtbssm.github.io/MusicCleaner
 ###### Delete, Move or Copy the file to a specified folder already set in preferences
 ###### Basic Player navigation controls like Next, Previous, Play, Pause and Stop
 
-# Change Log for v1.3
+### Change Log for v1.3
 ###### Added Search Feature
 ###### Added Rename Feature
 ###### Added shortcut keys (The detail of the shortcut keys will be updated here soon)
