@@ -16,6 +16,13 @@ type
     Label5: TLabel;
     Image2: TImage;
     Label1: TLabel;
+    Label2: TLabel;
+    Label6: TLabel;
+    Label7: TLabel;
+    Label8: TLabel;
+    Label9: TLabel;
+    Label11: TLabel;
+    Image3: TImage;
   private
     { Private declarations }
   public

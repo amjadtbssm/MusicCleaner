@@ -6,7 +6,8 @@ uses
   MainSettings in 'MainSettings.pas' {FrmSettings},
   AboutForm in 'AboutForm.pas' {FormAbout},
   Vcl.Themes,
-  Vcl.Styles;
+  Vcl.Styles,
+  RenameFrm in 'RenameFrm.pas' {RenameForm};
 
 {$R *.res}
 
@@ -18,5 +19,6 @@ begin
   Application.CreateForm(TMusicCleaner, MusicCleaner);
   Application.CreateForm(TFrmSettings, FrmSettings);
   Application.CreateForm(TFormAbout, FormAbout);
+  Application.CreateForm(TRenameForm, RenameForm);
   Application.Run;
 end.
