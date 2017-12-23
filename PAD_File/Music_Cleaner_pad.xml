@@ -1,0 +1,253 @@
+<XML_DIZ_INFO>
+  <MASTER_PAD_VERSION_INFO>
+    <MASTER_PAD_VERSION>4.0</MASTER_PAD_VERSION>
+    <MASTER_PAD_EDITOR>AppVisor 1.0.43</MASTER_PAD_EDITOR>
+    <MASTER_PAD_EDITOR_URL>http://publisher.appvisor.com</MASTER_PAD_EDITOR_URL>
+    <MASTER_PAD_INFO>Portable Application Description, or PAD(TM) 2004 Association of Software Professionals (ASP)http://www.asp-shareware.org/pad is a data set standard and specification that is commercialsoftware publishers to disseminate certified information about their software application. The PAD format is copyright of the ASP and cannot be used without the formal licensing and permission of both the Association of Software Professionals and its agent AppVisor.com.</MASTER_PAD_INFO>
+    <CERTIFIED>No</CERTIFIED>
+    <CERTIFICATE_ID></CERTIFICATE_ID>
+    <CERTIFICATE_LICENSE></CERTIFICATE_LICENSE>
+  </MASTER_PAD_VERSION_INFO>
+  <RoboSoft>
+    <Company_UIN>CMP-A3008CA28A57</Company_UIN>
+    <Product_UIN>APP-B3008CA28A57</Product_UIN>
+    <Publish_on_CD></Publish_on_CD>
+    <NewsFeed_Search_String></NewsFeed_Search_String>
+    <Search_String>Music Cleaner</Search_String>
+    <Press_Release_Search_String></Press_Release_Search_String>
+    <Backlink></Backlink>
+    <Comments_For_Reviewer></Comments_For_Reviewer>
+    <Search_String_Unique>Music Cleaner</Search_String_Unique>
+    <Search_Engine_Search_String></Search_Engine_Search_String>
+    <Web_Directories_Search_String></Web_Directories_Search_String>
+    <Company_Description></Company_Description>
+  </RoboSoft>
+  <Company_Info>
+    <PublisherID>pid-c20071e084c6</PublisherID>
+    <BrandID>bid-a3008ca28a57</BrandID>
+    <Company_Name>AMjAD TABASSUM</Company_Name>
+    <Country>Pakistan</Country>
+    <State_Province>Punjab</State_Province>
+    <City_Town>Multan</City_Town>
+    <Zip_Postal_Code>34000</Zip_Postal_Code>
+    <Address_1>Main Street Near Railway Station</Address_1>
+    <Address_2>Post Office Ehsan Pur Thesil Kot Addu</Address_2>
+    <Company_WebSite_URL>http://amjadtbssm.blogspot.com/</Company_WebSite_URL>
+    <Contact_Info>
+      <Contact_First_Name>Amjad</Contact_First_Name>
+      <Contact_Last_Name>Tabassum</Contact_Last_Name>
+      <Contact_Email>amjadtbssm@gmail.com</Contact_Email>
+      <Author_First_Name>Amjad</Author_First_Name>
+      <Author_Last_Name>Tabassum</Author_Last_Name>
+      <Author_Email>amjadtbssm@gmail.com</Author_Email>
+      <Contact_Phone></Contact_Phone>
+    </Contact_Info>
+    <Support_Info>
+      <Sales_Email>amjadtbssm@gmail.com</Sales_Email>
+      <Support_Email>amjadtbssm@gmail.com</Support_Email>
+      <General_Email>amjadtbssm@gmail.com</General_Email>
+      <Sales_Phone></Sales_Phone>
+      <Support_Phone></Support_Phone>
+      <General_Phone></General_Phone>
+      <Fax_Phone></Fax_Phone>
+    </Support_Info>
+    <GooglePlusPage></GooglePlusPage>
+    <LinkedinPage></LinkedinPage>
+    <TwitterCompanyPage></TwitterCompanyPage>
+    <FacebookCompanyPage></FacebookCompanyPage>
+  </Company_Info>
+  <Program_Info>
+    <AppID>app-b3008ca28a57</AppID>
+    <Program_Name>Music Cleaner</Program_Name>
+    <Program_Version>1.2</Program_Version>
+    <Program_Release_Month>11</Program_Release_Month>
+    <Program_Release_Day>02</Program_Release_Day>
+    <Program_Release_Year>2017</Program_Release_Year>
+    <Program_Cost_Dollars>0</Program_Cost_Dollars>
+    <Program_Cost_Other_Code>USD</Program_Cost_Other_Code>
+    <Program_Cost_Other>0</Program_Cost_Other>
+    <Program_Type>Freeware</Program_Type>
+    <Program_Category_Class>Audio &amp; Multimedia::Other</Program_Category_Class>
+    <Program_Specific_Category>Audio</Program_Specific_Category>
+    <Program_Categories></Program_Categories>
+    <Program_Release_Status>New Release</Program_Release_Status>
+    <Program_Install_Support>Install and Uninstall</Program_Install_Support>
+    <Program_Target_Platform>Windows</Program_Target_Platform>
+    <Program_OS_Support>Win2000,WinXP,Win7 x32,Win7 x64,Windows 8,Windows 10,WinServer,WinOther,Windows2000,Windows2003,Windows Server 2000,Windows Server 2003,Windows Server 2008,Windows Server 2008r2,Windows Server 2012,Windows Tablet PC Edition 2005,Windows Media Center Edition 2005,WinVista,Windows Vista Starter,Windows Vista Home Basic,Windows Vista Home Premium,Windows Vista Business,Windows Vista Enterprise,Windows Vista Ultimate,WinVista x64,Windows Vista Home Basic x64,Windows Vista Home Premium x64,Windows Vista Business x64,Windows Vista Enterprise x64,Windows Vista Ultimate x64</Program_OS_Support>
+    <Program_Language>English</Program_Language>
+    <Program_Change_Info></Program_Change_Info>
+    <Program_System_Requirements>Windows XP,Windows 7,Windows 8,Windows 8.1</Program_System_Requirements>
+    <Limitations></Limitations>
+    <Awards></Awards>
+    <File_Info>
+      <File_Size_Bytes>3342336</File_Size_Bytes>
+      <File_Size_K>3264</File_Size_K>
+      <File_Size_MB>3.19</File_Size_MB>
+    </File_Info>
+    <Expire_Info>
+      <Has_Expire_Info>N</Has_Expire_Info>
+      <Expire_Count></Expire_Count>
+      <Expire_Based_On></Expire_Based_On>
+      <Expire_Year></Expire_Year>
+      <Expire_Other_Info></Expire_Other_Info>
+      <Expire_Month></Expire_Month>
+      <Expire_Day></Expire_Day>
+    </Expire_Info>
+    <FacebookFanPage></FacebookFanPage>
+    <VideoLink1URL></VideoLink1URL>
+    <VideoLink2URL></VideoLink2URL>
+    <Includes_JAVA_VM></Includes_JAVA_VM>
+    <Includes_DirectX></Includes_DirectX>
+    <Includes_VB_Runtime></Includes_VB_Runtime>
+    <GooglePlusFanPage></GooglePlusFanPage>
+  </Program_Info>
+  <Web_Info>
+    <Application_URLs>
+      <Application_Info_URL>https://amjadtbssm.github.io/MusicCleaner/</Application_Info_URL>
+      <Application_Order_URL></Application_Order_URL>
+      <Application_Screenshot_URL>https://amjadtbssm.github.io/MusicCleaner/images/main-help.png</Application_Screenshot_URL>
+      <Application_Icon_URL>https://4.bp.blogspot.com/-W1rB-g3Ro8U/WfrQzFI0rfI/AAAAAAAAANs/hMROmwcf_PoaBqZQVxRhXvZbj6Iqds30QCLcBGAs/s1600/mc-logo.png</Application_Icon_URL>
+      <Application_XML_File_URL>http://repository.appvisor.com/app-b3008ca28a57/site-01/Music_Cleaner_pad.xml</Application_XML_File_URL>
+    </Application_URLs>
+    <Download_URLs>
+      <Primary_Download_URL>https://github.com/amjadtbssm/MusicCleaner/releases/download/v1.2/Music.Cleaner.Setup.exe</Primary_Download_URL>
+      <Secondary_Download_URL>https://github.com/amjadtbssm/MusicCleaner/releases/latest</Secondary_Download_URL>
+      <Additional_Download_URL_1></Additional_Download_URL_1>
+      <Additional_Download_URL_2></Additional_Download_URL_2>
+    </Download_URLs>
+  </Web_Info>
+  <Program_Descriptions>
+    <English>
+      <Keywords>Music Cleaner, Audio Cleaner, Audio Manager, Audio Management, Delete Audio, Junk Music</Keywords>
+      <Char_Desc_45>Music Cleaner is simple music cleaner</Char_Desc_45>
+      <Char_Desc_80>Music Cleaner is a straight application built for cleaning audio collection</Char_Desc_80>
+      <Char_Desc_250>Music Cleaner is a clean and straight application built for the purpose of cleaning audio collection.</Char_Desc_250>
+      <Char_Desc_450>Music Cleaner is a clean and straight application built for the purpose of cleaning audio collection</Char_Desc_450>
+      <Char_Desc_2000>Music Cleaner is a clean and straight application built for the purpose of cleaning audio collection.
+
+Features
+
+* Open a folder and list all of its Audio files
+* Play and seek the audio file
+* Delete, Move or Copy the file to a specified folder already set in preferences
+* Basic Player navigation controls like Next, Previous, Play, Pause and Stop
+* If the folder is not on Removable Media, The file will be deleted to Recycle Bin for Easy Restore
+* Supports Keyboard Shortcuts</Char_Desc_2000>
+    </English>
+  </Program_Descriptions>
+  <Permissions>
+    <Distribution_Permissions>Any one can distribute this software as long as Its setup is kept intact</Distribution_Permissions>
+    <EULA>Music Cleaner
+(https://github.com/amjadtbssm/MusicCleaner)
+
+MIT License
+
+Copyright (c) 2017 AMjAD TABASSUM
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+The link to this repository i.e. https://github.com/amjadtbssm/MusicCleaner should be kept intact.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</EULA>
+  </Permissions>
+  <Affiliates>
+    <Affiliates_Regsoft_Order_Page></Affiliates_Regsoft_Order_Page>
+    <Affiliates_Regnow_Order_Page></Affiliates_Regnow_Order_Page>
+    <Affiliates_Regsoft_Vendor_ID></Affiliates_Regsoft_Vendor_ID>
+    <Affiliates_Regnow_Vendor_ID></Affiliates_Regnow_Vendor_ID>
+    <Affiliates_Regsoft_Product_ID></Affiliates_Regsoft_Product_ID>
+    <Affiliates_Regnow_Product_ID></Affiliates_Regnow_Product_ID>
+    <Affiliates_FORM></Affiliates_FORM>
+    <Affiliates_FORM_VER></Affiliates_FORM_VER>
+    <Affiliates_VERSION></Affiliates_VERSION>
+    <Affiliates_URL></Affiliates_URL>
+    <Affiliates_Information_Page></Affiliates_Information_Page>
+    <Affiliates_Avangate_Order_Page></Affiliates_Avangate_Order_Page>
+    <Affiliates_Avangate_Vendor_ID></Affiliates_Avangate_Vendor_ID>
+    <Affiliates_Avangate_Product_ID></Affiliates_Avangate_Product_ID>
+    <Affiliates_Avangate_Maximum_Commission_Rate></Affiliates_Avangate_Maximum_Commission_Rate>
+    <Affiliates_BMTMicro_Order_Page></Affiliates_BMTMicro_Order_Page>
+    <Affiliates_BMTMicro_Vendor_ID></Affiliates_BMTMicro_Vendor_ID>
+    <Affiliates_BMTMicro_Product_ID></Affiliates_BMTMicro_Product_ID>
+    <Affiliates_BMTMicro_Maximum_Commission_Rate></Affiliates_BMTMicro_Maximum_Commission_Rate>
+    <Affiliates_eSellerate_Order_Page></Affiliates_eSellerate_Order_Page>
+    <Affiliates_eSellerate_Vendor_ID></Affiliates_eSellerate_Vendor_ID>
+    <Affiliates_eSellerate_Product_ID></Affiliates_eSellerate_Product_ID>
+    <Affiliates_eSellerate_Maximum_Commission_Rate></Affiliates_eSellerate_Maximum_Commission_Rate>
+    <Affiliates_Kagi_Order_Page></Affiliates_Kagi_Order_Page>
+    <Affiliates_Kagi_Vendor_ID></Affiliates_Kagi_Vendor_ID>
+    <Affiliates_Kagi_Product_ID></Affiliates_Kagi_Product_ID>
+    <Affiliates_Kagi_Maximum_Commission_Rate></Affiliates_Kagi_Maximum_Commission_Rate>
+    <Affiliates_Order1_Order_Page></Affiliates_Order1_Order_Page>
+    <Affiliates_Order1_Vendor_ID></Affiliates_Order1_Vendor_ID>
+    <Affiliates_Order1_Product_ID></Affiliates_Order1_Product_ID>
+    <Affiliates_Order1_Maximum_Commission_Rate></Affiliates_Order1_Maximum_Commission_Rate>
+    <Affiliates_Regnet_Order_Page></Affiliates_Regnet_Order_Page>
+    <Affiliates_Regnet_Vendor_ID></Affiliates_Regnet_Vendor_ID>
+    <Affiliates_Regnet_Product_ID></Affiliates_Regnet_Product_ID>
+    <Affiliates_Regnet_Maximum_Commission_Rate></Affiliates_Regnet_Maximum_Commission_Rate>
+    <Affiliates_Regnow_Maximum_Commission_Rate></Affiliates_Regnow_Maximum_Commission_Rate>
+    <Affiliates_Regsoft_Maximum_Commission_Rate></Affiliates_Regsoft_Maximum_Commission_Rate>
+    <Affiliates_ShareIt_Order_Page></Affiliates_ShareIt_Order_Page>
+    <Affiliates_ShareIt_Vendor_ID></Affiliates_ShareIt_Vendor_ID>
+    <Affiliates_ShareIt_Product_ID></Affiliates_ShareIt_Product_ID>
+    <Affiliates_ShareIt_Maximum_Commission_Rate></Affiliates_ShareIt_Maximum_Commission_Rate>
+    <Affiliates_SWReg_Order_Page></Affiliates_SWReg_Order_Page>
+    <Affiliates_SWReg_Vendor_ID></Affiliates_SWReg_Vendor_ID>
+    <Affiliates_SWReg_Product_ID></Affiliates_SWReg_Product_ID>
+    <Affiliates_SWReg_Maximum_Commission_Rate></Affiliates_SWReg_Maximum_Commission_Rate>
+  </Affiliates>
+  <NewsFeed>
+    <NewsFeed_FORM></NewsFeed_FORM>
+    <NewsFeed_VERSION></NewsFeed_VERSION>
+    <NewsFeed_URL></NewsFeed_URL>
+    <NewsFeed_DESCRIPTION></NewsFeed_DESCRIPTION>
+    <NewsFeed_Feed_URL></NewsFeed_Feed_URL>
+    <NewsFeed_Type></NewsFeed_Type>
+    <NewsFeed_Site_URL></NewsFeed_Site_URL>
+    <NewsFeed_Author_First_Name>Amjad</NewsFeed_Author_First_Name>
+    <NewsFeed_Author_Last_Name>Tabassum</NewsFeed_Author_Last_Name>
+    <NewsFeed_Author_Email>amjadtbssm@gmail.com</NewsFeed_Author_Email>
+    <NewsFeed_Language></NewsFeed_Language>
+    <NewsFeed_Title></NewsFeed_Title>
+    <NewsFeed_Description_70></NewsFeed_Description_70>
+    <NewsFeed_Description_250></NewsFeed_Description_250>
+    <NewsFeed_Purpose></NewsFeed_Purpose>
+    <NewsFeed_Site_Name></NewsFeed_Site_Name>
+  </NewsFeed>
+  <Press_Release>
+    <Press_Release></Press_Release>
+    <Headline></Headline>
+    <Summary></Summary>
+    <Press_Release_Plain></Press_Release_Plain>
+  </Press_Release>
+  <Site>
+    <Site_FORM></Site_FORM>
+    <Site_VERSION></Site_VERSION>
+    <Site_URL></Site_URL>
+    <Site_DESCRIPTION></Site_DESCRIPTION>
+    <Site_Site_Title></Site_Site_Title>
+    <Site_Site_URL></Site_Site_URL>
+    <Site_Keywords></Site_Keywords>
+    <Site_Description_100></Site_Description_100>
+    <Site_Description_250></Site_Description_250>
+    <Site_Description_450></Site_Description_450>
+    <Site_Contact_First_Name>Amjad</Site_Contact_First_Name>
+    <Site_Contact_Last_Name>Tabassum</Site_Contact_Last_Name>
+    <Site_Contact_Email>amjadtbssm@gmail.com</Site_Contact_Email>
+  </Site>
+  <Temp_Icon>https://cdnjs.cloudflare.com/ajax/libs/fatcow-icons/20130425/FatCow_Icons32x32/lighthouse.png</Temp_Icon>
+  <Dynamic_PAD>
+    <General>
+      <DP_Pad_Enabled>TRUE</DP_Pad_Enabled>
+      <DP_AtFormFill_Enabled>TRUE</DP_AtFormFill_Enabled>
+      <DP_Distributive_Enabled>TRUE</DP_Distributive_Enabled>
+      <DP_Script_Base_URL>http://repository.appvisor.com/</DP_Script_Base_URL>
+      <DP_Pad_Mask>Music_Cleaner_pad.xml</DP_Pad_Mask>
+      <DP_Distributive_Primary_URL>https://github.com/amjadtbssm/MusicCleaner/releases/download/v1.2/Music.Cleaner.Setup.exe</DP_Distributive_Primary_URL>
+      <DP_Distributive_Mask>Music.Cleaner.Setup.exe</DP_Distributive_Mask>
+    </General>
+  </Dynamic_PAD>
+</XML_DIZ_INFO>
