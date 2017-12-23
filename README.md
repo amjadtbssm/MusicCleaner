@@ -33,7 +33,7 @@ Music Cleaner has been built with the idea of ease of access, following keyboard
 ### Change Log for v1.3
 ###### Added Search Feature
 ###### Added Rename Feature
-###### Added shortcut keys (The detail of the shortcut keys will be updated here soon)
+###### Added shortcut keys
 ###### Minor bug fixes
 
 Note: This project uses BASS Audio Library from www.un4seen.com
