@@ -36,4 +36,11 @@ Music Cleaner has been built with the idea of ease of access, following keyboard
 ###### Added shortcut keys
 ###### Minor bug fixes
 
+### To Do List
+
+* [X] Rename Files
+* [X] Volume
+* [ ] ID3 TAG Support
+* [ ] Copy, Delete & Move with progress bar
+
 Note: This project uses BASS Audio Library from www.un4seen.com
