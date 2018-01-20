@@ -2,6 +2,8 @@
 ## Simple Music Cleaner written in Delphi using BASS Library
 Visit Music Cleaner on GitHub pages at https://amjadtbssm.github.io/MusicCleaner/
 
+![BoxShot](https://github.com/amjadtbssm/MusicCleaner/raw/master/images/box.png)
+
 ### Music Cleaner is a clean and straight application built for the purpose of cleaning audio collection.
 # Features
 ###### Open a folder and list all of its Audio files
@@ -25,10 +27,10 @@ Music Cleaner has been built with the idea of ease of access, following keyboard
 <p>To pause press the <b>Ctrl</b> + <b>P</b> key or <b>PAUSE</b> on Multimedia Keyboard.  The Multimedia Keyboard Key <b>PLAY/PAUSE</b> can also be used to Play/Pause simulatenously.</P>
 <p>To copy press <b>Ctrl</b> + <b>C</b> key.</P>
 <p>To move press <b>Ctrl</b> + <b>X</b> key.</P>
-<p>Press<b>Alt</b> + <b>F4</b> to exit.</P>
-<p>Press<b>Ctrl</b> + <b>S</b>, <b>Esc</b>, or <b>STOP</b> key on multimedia keyboard</P>
-<p>Press<b>Ctrl</b> + <b>B</b>, or <b>Fast Backward</b> key on multimedia keyboard</P>
-<p>Press<b>Ctrl</b> + <b>N</b>, or <b>Fast Forward</b> key on multimedia keyboard</P>
+<p>Press <b>Alt</b> + <b>F4</b> to exit.</P>
+<p>Press <b>Ctrl</b> + <b>S</b>, <b>Esc</b>, or <b>STOP</b> key on multimedia keyboard</P>
+<p>Press <b>Ctrl</b> + <b>B</b>, or <b>Fast Backward</b> key on multimedia keyboard</P>
+<p>Press <b>Ctrl</b> + <b>N</b>, or <b>Fast Forward</b> key on multimedia keyboard</P>
 
 ### Change Log for v1.3
 ###### Added Search Feature
