@@ -2,7 +2,7 @@
 ## Simple Music Cleaner written in Delphi using BASS Library
 Visit Music Cleaner on GitHub pages at https://amjadtbssm.github.io/MusicCleaner/
 
-![BoxShot](https://github.com/amjadtbssm/MusicCleaner/raw/master/images/box.png)
+<img src="https://github.com/amjadtbssm/MusicCleaner/raw/master/images/box.png" alt="Music Cleaner" style="float:left;">
 
 ### Music Cleaner is a clean and straight application built for the purpose of cleaning audio collection.
 # Features
