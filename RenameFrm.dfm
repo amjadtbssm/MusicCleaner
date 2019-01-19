@@ -14,6 +14,7 @@ object RenameForm: TRenameForm
   Font.Style = []
   OldCreateOrder = False
   Position = poMainFormCenter
+  OnShow = FormShow
   PixelsPerInch = 96
   TextHeight = 13
   object LblStatus: TLabel
@@ -61,5 +62,21 @@ object RenameForm: TRenameForm
     Caption = 'Cancel'
     TabOrder = 2
     OnClick = BtnCancelClick
+  end
+  object EdtExt: TEdit
+    Left = 22
+    Top = 126
+    Width = 27
+    Height = 31
+    TabStop = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -19
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+    Visible = False
+    OnKeyDown = EdtRenameKeyDown
   end
 end

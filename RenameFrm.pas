@@ -12,10 +12,12 @@ type
     BtnRename: TButton;
     BtnCancel: TButton;
     LblStatus: TLabel;
+    EdtExt: TEdit;
     procedure BtnRenameClick(Sender: TObject);
     procedure BtnCancelClick(Sender: TObject);
     procedure EdtRenameKeyDown(Sender: TObject; var Key: Word;
       Shift: TShiftState);
+    procedure FormShow(Sender: TObject);
   private
     { Private declarations }
   public
@@ -24,6 +26,8 @@ type
 
 var
   RenameForm: TRenameForm;
+  ext: string;
+
 
 implementation
 
@@ -41,14 +45,16 @@ procedure TRenameForm.BtnRenameClick(Sender: TObject);
  var
   RenInd: Integer;
 begin
+        //Get the Extension
+        ext := EdtExt.Text;
         //Rename the File
         with MusicCleaner.FileListBox1 do begin
 
           //Check before hand if the target file exists
-          If System.SysUtils.FileExists(Directory + pathdelim + EdtRename.Text) Then
+          If System.SysUtils.FileExists(Directory + pathdelim + EdtRename.Text+Ext) Then
             Begin
               //File is already there ask for a new name
-              MessageDlg('The file "'+EdtRename.Text+'" already exists', mtError, [mbOK], 0, mbOK);
+              MessageDlg('The file "'+EdtRename.Text+Ext+'" already exists', mtError, [mbOK], 0, mbOK);
               exit;
             End;
           MusicCleaner.CheckCurItem;
@@ -56,25 +62,25 @@ begin
              //If It is the current Item then free the Bass Lib
              MusicCleaner.FreeBassLib;
              end;
-          if not RenameFile(Directory + pathdelim + Items[RenIndex], Directory + pathdelim + EdtRename.Text)  then begin
+          if not RenameFile(Directory + pathdelim + Items[RenIndex], Directory + pathdelim + EdtRename.Text+Ext)  then begin
           //If file rename failed then report the error
-          ShowMessage('An error has occured while renaming the file');
+          ShowMessage('An error has occurred while renaming the file');
           //Show the status at the main form
           MusicCleaner.LblStatus.Caption := 'Error:';
-          MusicCleaner.LblFile.Caption := 'An error has occured while renaming the file';
+          MusicCleaner.LblFile.Caption := 'An error has occurred while renaming the file';
           //Update the Current Item
           MusicCleaner.UpdateCurItem;
           end else Begin
             //Rename was OK then update the Current Item
             //to match the new file name
-            MusicCleaner.FileListBox1.Items.Strings[MusicCleaner.FileListBox1.ItemIndex] := EdtRename.Text;
+            MusicCleaner.FileListBox1.Items.Strings[MusicCleaner.FileListBox1.ItemIndex] := (EdtRename.Text+Ext);
             //Show the status at the main form
             MusicCleaner.LblStatus.Caption := 'File Renamed To:';
-            MusicCleaner.LblFile.Caption := EdtRename.Text;
+            MusicCleaner.LblFile.Caption := (EdtRename.Text + Ext);
             //Update the Current Item
             MusicCleaner.UpdateCurItem;
           End;
-                  //If the current Item was renamed then Re-Initiliaze Bass Lib
+                  //If the current Item was renamed then Re-Initialize Bass Lib
                   if CurItem then
                   begin
                       MusicCleaner.InitiliazeBassLIb;
@@ -93,6 +99,12 @@ begin
       //If enter key is pressed then Rename File
       if Key = VK_RETURN then
       BtnRenameClick(sender);
+end;
+
+procedure TRenameForm.FormShow(Sender: TObject);
+begin
+      //Set Focus to the EdtRename
+      EdtRename.SetFocus;
 end;
 
 end.

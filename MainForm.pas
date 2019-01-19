@@ -374,7 +374,12 @@ begin
 
         Begin
           //Get the file name in the Rename Dialog
-          RenameForm.EdtRename.Text := FileListBox1.Items.Strings[FileListBox1.ItemIndex];
+          RenameForm.EdtRename.Text := ExtractFileNameWithoutExtension(FileListBox1.Items.Strings[FileListBox1.ItemIndex]);
+          //Get the file Extension
+          //RenameForm.Ext := ExtractFileExt(FileListBox1.Items.Strings[FileListBox1.ItemIndex]);
+          //First Clear the EdtExt just to be sure it does not contain the Previous Extension
+          RenameForm.EdtExt.Text := '';
+          RenameForm.EdtExt.Text := ExtractFileExt(FileListBox1.Items.Strings[FileListBox1.ItemIndex]);
           //Set the Rename Index
           RenIndex := FileListBox1.ItemIndex;
           //Show the Rename Dialog
