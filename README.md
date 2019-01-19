@@ -38,11 +38,19 @@ Music Cleaner has been built with the idea of ease of access, following keyboard
 ###### Added shortcut keys
 ###### Minor bug fixes
 
+### Change Log for the Future Release v1.4
+#### Still under development
+###### Rename dialog now does not contain the extension for safe renaming
+###### More features coming soon.......
+
 ### To Do List
 
 * [X] Rename Files
 * [X] Volume
 * [ ] ID3 TAG Support
 * [ ] Copy, Delete & Move with progress bar
+* [ ] Show Cover Art
+* [ ] Update GUI for easy handling of files
+* [ ] Show Track Name, Artist Name & other info
 
 Note: This project uses BASS Audio Library from www.un4seen.com
