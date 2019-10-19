@@ -3,7 +3,7 @@
 
 Visit Music Cleaner on GitHub pages at https://amjadtbssm.github.io/MusicCleaner/
 
-Support me on [Patreon](https://www.patreon.com/amjadtbssm)
+[<img src="https://raw.githubusercontent.com/amjadtbssm/MusicCleaner/master/patron.png" alt="Become a Patron">](https://www.patreon.com/amjadtbssm)
 
 <img src="https://github.com/amjadtbssm/MusicCleaner/raw/master/images/box.png" alt="Music Cleaner" style="float:left;">
 
